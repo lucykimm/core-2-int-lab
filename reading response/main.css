@@ -1,0 +1,9 @@
+body{
+  background-color: #e2f7a8;
+  font-family: abccameravariable;
+}
+
+@font-face {
+  font-family: abccameravariable;
+  src: url(abccameravariable.ttf);
+}

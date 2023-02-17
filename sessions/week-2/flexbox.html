@@ -16,8 +16,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,21 +25,28 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>hello lucy kim</p>
+  <main>
+    <div><p>Flexbox example</p></div>
+    <nav>
+      <ul>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3 is longer</a></li>
+        <li><a href="#">Page 4</a></li>
+      </ul>
+    </nav>
+    <div class="box">
+      <div class="flex-item">One</div>
+      <div class="flex-item">Two</div>
+      <div class="flex-item selected">Three</div>
+      <div class="flex-item">Four</div>
+    </div>
+
+  </main>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-  <a href="activities/reading-response/index.html">reading response</a>
-  <br>
-  <a href="activities/variable-fonts/index.html">variable fonts</a>
-  <br>
-  <a href="activities/webtype-intro/index.html">webtype intro</a>
-  <br>
-  <a href="cd-lectures/index.html">cd lectures</a>
-
-
-
-
+  <a href="activities/reading-response-index.html"></a>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

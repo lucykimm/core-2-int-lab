@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'ABC';
+  src: url(ABCCameraPlain-Medium-Trial.otf)
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'ABCbubble';
+  src: url(ABCCamera-Bold-Trial.otf)
+  format('opentype');
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+.main {
+  border: 5px solid rgb(0, 0, 0);
+}
+
+
+.nav{
+  border: 5px solid rgb(230, 255, 104);
+}
+
+
+
+
+@media all and (min-width: 801px) {
+  .main {
+    flex: 2;
+    order: 1;
+    font-family:'ABC';
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-right: 2em;
+  }
+
+  .aside {
+    flex: 1;
+    order: 2;
+    font-family: 'ABCbubble';
+    padding: 1em;
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+
+
+  .fixed {
+    position: fixed;
+    font-family: 'ABC';
+    bottom: 15%;
+  }
+
+  .nav{
+    font-family: 'ABC';
+    display: flex; 
+    order: 4;
+    position: fixed;
+    bottom: 0px;
+    height: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgb(53, 51, 47);
+    background-color: white;
+  }
+  
+}

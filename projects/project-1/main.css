@@ -1,29 +1,142 @@
-div {
-  width: 300px;
-  height: 800px;
-  border: 1px solid black;
-  overflow: auto;
+@font-face {
+  font-family: 'ABC';
+  src: url(ABCCameraPlain-Medium-Trial.otf)
+  format('opentype');
 }
 
+@font-face {
+  font-family: 'ABCbubble';
+  src: url(ABCCamera-Bold-Trial.otf)
+  format('opentype');
+}
+
+h1 {
+  font-family:'ABC';
+  font-style: normal;
+  font-size: 15px;
+  color: darkgray
+}
+
+div {
+  width: 300px;
+  height: 750px;
+  border: 1.5px solid black;
+  overflow: auto;
+  line-height: 100px;
+}
 
 .container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   gap: 0px;
   padding: 0px;
+  line-height: 100px;
 }
-
 
 .container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  font-family:    abccameravariable;
+  font-family: 'ABC';
   text-align: center;
   padding: 20px 0;
   font-size: 180px;
 }
 
-@font-face {
-  font-family: abccamerabold;
-  src: url(ABCCameraPlainVariable-Trial.ttf) format('ttf');
+h2 {
+  font-family: 'ABCbubble';
+  font-style: normal;
+  font-size: 250px;
+  text-align: center;
+  line-height: 50px;
 }
+
+h3 {
+  font-family:'ABCbubble';
+  font-style: normal;
+  font-size: 150px;
+  text-align: center;
+  line-height: 50px;
+}
+
+h4 {
+  font-family:'ABCbubble';
+  font-style: normal;
+  font-size: 200px;
+  text-align: center;
+  line-height: 50px;
+}
+
+a.one:link {
+  text-decoration: none;
+  color:#022e14;
+}
+
+a.one:visited {
+  text-decoration: none;
+  color:#8d918d;
+}
+
+a.one:hover {
+  color:#ffcc00;
+}
+
+
+a.two:link {
+  text-decoration: none;
+  color:#362203;
+}
+
+a.two:visited {
+  text-decoration: none;
+  color:#8d918d;
+}
+
+a.two:hover {
+  color:#3c958c;
+}
+
+
+a.three:link {
+  text-decoration: none;
+  color:#ff8c00;
+}
+
+a.three:visited {
+  text-decoration: none;
+  color:#8d918d;
+}
+
+a.three:hover {
+  color:#faa1ca;
+}
+
+
+a.four:link {
+  text-decoration: none;
+  color:#063753;
+}
+
+a.four:visited {
+  text-decoration: none;
+  color:#8d918d;
+}
+
+a.four:hover {
+  color:#b0e86d;
+}
+
+
+a.five:link {
+  text-decoration: none;
+  color:#bd4b93;
+}
+
+a.five:visited {
+  text-decoration: none;
+  color:#8d918d;
+}
+
+a.five:hover {
+  color:#91d2ec;
+}
+
 

@@ -1,6 +1,29 @@
-.columns {
-  column-count: 5;
-  column-gap: 40px;
-  column-rule-style: solid;
-  column-rule-width: 1px;
+div {
+  width: 300px;
+  height: 800px;
+  border: 1px solid black;
+  overflow: auto;
 }
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 0px;
+  padding: 0px;
+}
+
+
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family:    abccameravariable;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 180px;
+}
+
+@font-face {
+  font-family: abccamerabold;
+  src: url(ABCCameraPlainVariable-Trial.ttf) format('ttf');
+}
+

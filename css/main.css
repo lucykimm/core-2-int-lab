@@ -13,8 +13,10 @@
 
 html {
   color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+  background-color: rgb(246, 255, 114);
+  font-size: 3em;
+  font-family: 'helvetica neue', monospace;
+  line-height: 2;
 }
 
 /*

@@ -7,3 +7,19 @@ body{
   font-family: abccameravariable;
   src: url(abccameravariable.ttf);
 }
+
+
+h1 {
+  font-family:'ABC';
+  font-style: normal;
+  font-size: 15px;
+  color: darkgray
+}
+
+div {
+  width: 300px;
+  height: 750px;
+  border: 1.5px solid black;
+  overflow: auto;
+  line-height: 100px;
+}

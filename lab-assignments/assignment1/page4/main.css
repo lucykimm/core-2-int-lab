@@ -1,0 +1,22 @@
+*{
+  box-sizing: content-box;
+}
+
+.grid1{
+  width: 600px;
+  height: 800px;
+  display: grid;
+  background-color: aquamarine;
+  grid-template-columns: repeat(14, 10fr);
+  margin: 0 auto;
+  grid-template-rows: repeat(14, 10fr);
+  gap: 0px;
+}
+.block{
+  background: rgb(184, 243, 244);
+  border-radius: 0% 0 0 0;
+  filter: drop-shadow(10px 10px rgb(17, 18, 26));
+  mix-blend-mode: multiply;
+/*  mix-blend-mode: multiply; */
+
+}

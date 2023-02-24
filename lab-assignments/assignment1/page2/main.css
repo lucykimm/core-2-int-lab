@@ -3,12 +3,12 @@
 }
 
 .grid1{
-  width: 750px;
-  height: 750px;
+  width: 700px;
+  height: 700px;
   display: grid;
-  grid-template-columns: repeat(10, 2fr);
+  grid-template-columns: repeat(16, 2fr);
   margin: 0 auto;
-  grid-template-rows: repeat(10, 2fr);
+  grid-template-rows: repeat(16, 2fr);
   gap: 2px;
 }
 .block{

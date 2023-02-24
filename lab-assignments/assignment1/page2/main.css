@@ -1,0 +1,22 @@
+*{
+  box-sizing: content-box;
+}
+
+.grid1{
+  width: 750px;
+  height: 750px;
+  display: grid;
+  grid-template-columns: repeat(10, 2fr);
+  margin: 0 auto;
+  grid-template-rows: repeat(10, 2fr);
+  gap: 2px;
+}
+.block{
+  background: rgb(155, 155, 155);
+  border-radius: 40% 0 0 0;
+  filter: drop-shadow(3px 3px rgb(3, 8, 60));
+  mix-blend-mode: multiply;
+/*  mix-blend-mode: multiply; */
+
+}
+

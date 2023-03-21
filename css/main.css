@@ -11,13 +11,58 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  background-color: rgb(246, 255, 114);
-  font-size: 3em;
-  font-family: 'helvetica neue', monospace;
-  line-height: 2;
+
+
+@font-face {
+  font-family: realmadrid2009;
+    src: url(realmadrid2009.ttf);
 }
+  
+body {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+h1{
+  text-align: left;
+  color: #000000;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  font-family: realmadrid2009;
+}
+
+section1{
+  text-align: right;
+  font-size: 40px;
+  line-height: 150%; 
+  background-color: #fff;
+  font-family: realmadrid2009;
+}
+
+.circle1 {
+  float: left;
+  width: 540px;
+  height: 540px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: rgb(235, 255, 154);
+}
+
+.circle2 {
+  float: right;
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: rgb(235, 255, 154);
+}
+
+
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -25,9 +70,7 @@ html {
  *
  * Vendor-prefixed and regular ::selection selectors cannot be combined:
  * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+
 
 ::-moz-selection {
   background: #b3d4fc;

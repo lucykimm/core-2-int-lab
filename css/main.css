@@ -11,7 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-
+@media screen and (max-width: 400px){ 
+  }
 
 @font-face {
   font-family: realmadrid2009;
@@ -42,9 +43,9 @@ section1{
 
 .circle1 {
   float: left;
-  width: 540px;
-  height: 540px;
-  margin: 20px;
+  width: 550px;
+  height: 550px;
+  margin: 30px;
   shape-outside: circle();
   clip-path: circle();
   background: rgb(235, 255, 154);
@@ -52,9 +53,9 @@ section1{
 
 .circle2 {
   float: right;
-  width: 300px;
-  height: 300px;
-  margin: 50px;
+  width: 350px;
+  height: 350px;
+  margin: 30px;
   shape-outside: circle();
   clip-path: circle();
   background: rgb(235, 255, 154);

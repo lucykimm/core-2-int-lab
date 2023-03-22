@@ -1,11 +1,16 @@
 @font-face {
-  font-family: abccameravariable;
-  src: url(abccameravariable.ttf);
+  font-family: realmadrid2009;
+  src: url(realmadrid2009.ttf);
+}
+
+@font-face {
+  font-family: abcmonumentgrotesk-medium;
+    src: url(abcmonumentgrotesk-medium.otf);
 }
 
 body{
   background-color: #e2f7a8;
-  font-family: abccameravariable;
+  font-family: abcmonumentgrotesk-medium;
   color: #000000;
   font-size: 20px;
   line-height: 40px;

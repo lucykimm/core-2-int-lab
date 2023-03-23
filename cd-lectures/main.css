@@ -21,19 +21,18 @@ body{
 }
 
 p{
-  background-color: #e2f7a8;
   text-align: left;
-  padding-right: 70px;
-  padding-left: 50px;
+  padding-right: 40px;
+  padding-left: 20px;
   padding-top: 30px;
-  font-size: 18px;
-  line-height: 45px;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 h1{
   text-align: left;
   font-family: realmadrid2009;
-  margin-left: 10px;
+  margin-left: -20px;
   margin-top: -30px;
   margin-bottom: 10px;  
   font-size: 60px;
@@ -51,8 +50,8 @@ h1{
 }
 
 div {
-  width: 1500px;
-  height: 100px;
+  width: 1450px;
+  height: 260px;
   border: 1px solid black;
   border-left: none;
   border-right: none;
@@ -75,25 +74,38 @@ h2{
   margin-bottom: -30px;
   margin-left: 20px;
   font-family: realmadrid2009;
-  color: #676a67;
+  color: #000000;
 }
 
 h3{
   font-size: 50px;
   text-align: left;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   margin-left: 20px;
   font-family: realmadrid2009;
-  color: #676a67;
+  color: #000000;
 }
 
 nav{
   text-align: left;
+  margin-left: -20px;
   font-family: realmadrid2009;
 }
 
+a.one:link {
+  text-decoration: none;
+  color:#000000;
+}
 
+a.one:visited {
+  text-decoration: none;
+  color:#676a67;
+}
+
+a.one:hover {
+  color:#e2f7a8;
+}
 
 
 

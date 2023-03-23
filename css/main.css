@@ -62,6 +62,21 @@ section1{
 }
 
 
+a.one:link {
+  text-decoration: none;
+  color:#000000;
+}
+
+a.one:visited {
+  text-decoration: none;
+  color:#676a67;
+}
+
+a.one:hover {
+  color:#e2f7a8;
+}
+
+
 
 
 

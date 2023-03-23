@@ -8,8 +8,9 @@
     src: url(abcmonumentgrotesk-medium.otf);
 }
 
+
 body{
-  background-color: #e2f7a8;
+  background-color: #ffffff;
   font-family: abcmonumentgrotesk-medium;
   color: #000000;
   font-size: 20px;
@@ -20,21 +21,95 @@ body{
 }
 
 p{
-  background-color: rgb(255, 255, 255);
-  margin-left: 50px;
-  margin-right: 50px;
   text-align: left;
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 h1{
-  text-align: center;
+  text-align: left;
+  font-family: realmadrid2009;
+  margin-left: -20px;
+  margin-top: -30px;
+  margin-bottom: 10px;  
+  font-size: 60px;
+  color: rgb(0, 0, 0)
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 20vh;
+}
+
+div {
+  width: 1450px;
+  height: 280px;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  overflow: auto;
+  line-height: 100px;
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+  line-height: 100px;
+}
+
+
+
 h2{
-  text-align: center;
-  margin-top: 150px;
+  font-size: 50px;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: realmadrid2009;
+  color: #000000;
 }
 
 h3{
-  text-align: center;
+  font-size: 50px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left: 00px;
+  line-height: 60px;
+  font-family: realmadrid2009;
+  color: #000000;
 }
+
+nav{
+  text-align: left;
+  margin-left: -20px;
+  font-family: realmadrid2009;
+}
+
+
+a.one:link {
+  text-decoration: none;
+  color:#000000;
+}
+
+a.one:visited {
+  text-decoration: none;
+  color:#676a67;
+}
+
+a.one:hover {
+  color:#e2f7a8;
+}
+
+
+
+
+

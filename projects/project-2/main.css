@@ -21,6 +21,7 @@ body{
 .wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
@@ -36,4 +37,8 @@ h1{
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.lamp{
+  width: 50%;
 }

@@ -1,218 +1,256 @@
 [
   {
     "Name": "Nesso Table Lamp",
+    "Image": "img/1nesso.png",
     "Price": "$400.00",
     "Brand": "Artemide",
-    "Size": "8\" x 13",
+    "Dimensions": "8 x 13 in",
     "Designers": "Giancarlo Mattioli",
     "Colors": "White, Orange",
-    "Product feature": ""
+    "Materials": "Injection-molded ABS resin"
   },
   {
     "Name": "Pao Portable Lamp",
+    "Image": "img/2pao.png",
     "Price": "$165.75",
     "Brand": "Hay",
-    "Size": "9\" x 9",
+    "Dimensions": "9 x 9 in",
     "Designers": "Naoto Fukasawa",
     "Colors": "Black, Gray, White, Red",
-    "Product feature": ""
+    "Materials": "Polycarbonate"
   },
   {
     "Name": "Joy Table Lamp",
+    "Image": "img/3joy.png",
     "Price": "$129.00",
     "Brand": "Crate&Barrel",
-    "Size": "12\" x 13",
+    "Dimensions": "12 x 13 in",
     "Designers": "Leanne Ford",
     "Colors": "Clay, White",
-    "Product features": ""
+    "Materials": "Iron"
   },
   {
     "Name": "General Admission Mushroom",
+    "Image": "img/4general.png",
     "Price": "$90.00",
     "Brand": "Garmentory",
-    "Size": "5.5\" x 6",
+    "Dimensions": "5.5 x 6 in",
     "Designers": "",
     "Colors": "White, Orange",
-    "Product feature": ""
+    "Materials": "Stone"
   },
   {
     "Name": "Mushroom Table Lamp",
+    "Image": "img/5mush.png",
     "Price": "$159.00",
     "Brand": "West Elm",
-    "Size": "14.75\" x 18.75",
+    "Dimensions": "14.75 x 18.75 in",
     "Designers": "",
     "Colors": "Mixed",
-    "Product feature": ""
+    "Materials": "Hand-formed ceramic"
   },
   {
     "Name": "Maskor Table Light",
+    "Image": "img/6maskor.png",
     "Price": "$198.00",
     "Brand": "Gantri",
-    "Size": "8.5\" x 10.75",
+    "Dimensions": "8.5 x 10.75 in",
     "Designers": "Muka Design Lab",
     "Colors": "Snow, Fog, Sand, Canyon, Forest",
-    "Product feature": ""
+    "Materials": "Plant polymers"
   },
   {
     "Name": "Flowerpot VP9 Portable Table Lamp",
+    "Image": "img/7flower.png",
     "Price": "$315.00",
     "Brand": "&Tradition",
-    "Size": "6.3\" x 11.6",
+    "Dimensions": "6.3 x 11.6 in",
     "Designers": "Verner Panton",
     "Colors": "Matte White, Matte Black, Mustard, Light Blue, Stone Blue, Grey Beige, White, Matte Light Grey, Red Brown, Signal Green, Brass-Plated, Chrome-Plated",
-    "Product feature": ""
+    "Materials": "Polycarbonate, Steel"
   },
   {
     "Name": "Mooshie Table Lamp",
+    "Image": "img/8moo.png",
     "Price": "$34.99",
     "Brand": "Honey&Ivy",
-    "Size": "6.5\" x 7.9",
+    "Dimensions": "6.5 x 7.9 in",
     "Designers": "",
     "Colors": "Peach, Teal Crush, Banana Yellow, White, Beige, Pink, Orange, Olive Green, Red Apple, Midnight Blue",
-    "Product feature": ""
+    "Materials": "Plastic"
   },
   {
     "Name": "Senza White Glass Table Lamp",
+    "Image": "img/9senza.png",
     "Price": "$229.00",
     "Brand": "CB2",
-    "Size": "12\" x 12.1",
+    "Dimensions": "12 x 12.1 in",
     "Designers": "Studio Anansi",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Glass"
   },
   {
     "Name": "Limestone Table Lamp",
+    "Image": "img/10lime.png",
     "Price": "$499.00",
     "Brand": "CB2",
-    "Size": "15.75\" x 21.5",
+    "Dimensions": "15.75 x 21.5 in",
     "Designers": "Studio Anansi",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Solid limestone"
   },
   {
-    "Name": "Ramble Tall White Ceramic Table Lamp With Jute Shade",
+    "Name": "Ramble Tall White Ceramic Table Lamp",
+    "Image": "img/11ram.png",
     "Price": "$399.00",
     "Brand": "CB2",
-    "Size": "18\" x 29",
+    "Dimensions": "18 x 29 in",
     "Designers": "Kravitz Design",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Ceramic with reactive white glaze"
   },
   {
     "Name": "Obello Portable Lamp",
+    "Image": "img/12obe.png",
     "Price": "$254.15",
     "Brand": "Gubi",
-    "Size": "8.66\" x 9.45",
+    "Dimensions": "8.66 x 9.45 in",
     "Designers": "Bill Curry",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Glass, ABS, LED lights"
   },
   {
     "Name": "Tokano",
+    "Image": "img/13tok.png",
     "Price": "$19.99",
     "Brand": "Ikea",
-    "Size": "8\" x 13",
+    "Dimensions": "8 x 13 in",
     "Designers": "Iina Vuorivirta",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Glass, Polypropylene"
   },
   {
     "Name": "Haas Mojave Moon Table Lamp",
+    "Image": "img/14haas.png",
     "Price": "$1,950.00",
     "Brand": "L'object",
-    "Size": "13.5\" x 19",
+    "Dimensions": "13.5 x 19 in",
     "Designers": "Elad Yifrach",
     "Colors": "White",
-    "Product feature": ""
+    "Materials": "Porcelain"
   },
   {
     "Name": "Altadena Glass Shade Table Lamp",
+    "Image": "img/15alt.png",
     "Price": "$339.00",
     "Brand": "Rejuvenation",
-    "Size": "9.5\" x 5.75",
+    "Dimensions": "9.5 x 5.75 in",
     "Designers": "",
     "Colors": "Aged Brass",
-    "Product feature": ""
+    "Materials": "Brass, Glass"
   },
   {
     "Name": "Edith Iron Table Lamp",
+    "Image": "img/16edith.png",
     "Price": "$329.00",
     "Brand": "Pottery Barn",
-    "Size": "15\" x 22",
+    "Dimensions": "15 x 22 in",
     "Designers": "",
     "Colors": "Brass",
-    "Product feature": ""
+    "Materials": "Iron, Brass"
   },
   {
     "Name": "Lark Iron Floor Lamp",
+    "Image": "img/17lark.png",
     "Price": "$299.00",
     "Brand": "Pottery Barn",
-    "Size": "16\" x 63.5",
+    "Dimensions": "16 x 63.5 in",
     "Designers": "",
     "Colors": "Black",
-    "Product feature": ""
+    "Materials": "Iron, Brass, Metal"
   },
   {
     "Name": "Odie Metal Table Lamp",
+    "Image": "img/18odie.png",
     "Price": "$140.00",
     "Brand": "AllModern",
-    "Size": "6\" x 15.5",
+    "Dimensions": "6 x 15.5 in",
     "Designers": "",
     "Colors": "Beige, Black, Green",
-    "Product feature": ""
+    "Materials": "Metal, Iron"
   },
   {
     "Name": "Pipistrello Medium Table Lamp",
+    "Image": "img/19pip.png",
     "Price": "$1,633.00",
     "Brand": "Martinelli Luce",
-    "Size": "15.7\" x 24.4",
+    "Dimensions": "15.7 x 24.4 in",
     "Designers": "Gae Aulenti",
     "Colors": "",
-    "Product feature": ""
+    "Materials": "Stainless steel, Opal white methacrylate"
   },
   {
     "Name": "Little Glass Table Lamp",
+    "Image": "img/20litt.png",
     "Price": "$39.00",
     "Brand": "Urban Outfitters",
-    "Size": "4.92\" x 8.27",
+    "Dimensions": "4.92 x 8.27 in",
     "Designers": "",
     "Colors": "Taupe, Green, White, Lavender, Gold",
-    "Product feature": ""
+    "Materials": "Glass, LED lights"
   },
   {
     "Name": "Alice Glass Table Lamp",
+    "Image": "img/21alice.png",
     "Price": "$119.00",
     "Brand": "Urban Outfitters",
-    "Size": "8.06\" x 9",
+    "Dimensions": "8.06 x 9 in",
     "Designers": "",
     "Colors": "White, Cream, Turquoise",
-    "Product feature": ""
+    "Materials": "Glass"
   },
   {
     "Name": "Ansel Glass Table Lamp",
+    "Image": "img/22ansel.png",
     "Price": "$79.00",
     "Brand": "Urban Outfitters",
-    "Size": "7.78\" x 9.82",
+    "Dimensions": "7.78 x 9.82 in",
     "Designers": "",
     "Colors": "Pearl, White, Green, Brown, Blue Multi",
-    "Product feature": ""
+    "Materials": "Glass"
   },
   {
     "Name": "Ribbed Glass Table Lamp",
+    "Image": "img/23rib.png",
     "Price": "$318.00",
     "Brand": "West Elm",
-    "Size": "9.8\" x 13.4",
+    "Dimensions": "9.8 x 13.4 in",
     "Designers": "",
     "Colors": "Champagne, Amber, Yellow, Blue",
-    "Product feature": ""
+    "Materials": "Glass"
   },
   {
-    "Name": "Bellhop Rechargable table Lamp",
+    "Name": "Bellhop Rechargeable Table Lamp",
+    "Image": "img/24bell.png",
     "Price": "$297.50",
     "Brand": "Flos",
-    "Size": "4.9\" x 8.3",
+    "Dimensions": "4.9 x 8.3 in",
     "Designers": "Edward Barber, Jay Osgerby",
     "Colors": "Grey, White, Dark Brown, Orange, Yellow, Grey Blue, Matte Black",
-    "Product feature": ""
+    "Materials": "Polycarbonate"
+  },
+  {
+    "Name": "Setago Portable Table Lamp",
+    "Image": "img/25set.png",
+    "Price": "$225.00",
+    "Brand": "&Tradition",
+    "Dimensions": "9.1 x 8.7 in",
+    "Designers": "Jaime Hayon",
+    "Colors": "Twilight, Nude, Rust",
+    "Materials": "Polycarbonate, Brass"
   }
 ]
+
+
+
+

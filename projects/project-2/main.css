@@ -63,7 +63,7 @@ h1{
 
 
 
-.detail{
+.Detail{
   position: fixed;
   top: 0;
   left: 0;
@@ -75,6 +75,6 @@ h1{
   display: none;
 }
 
-.active .detail{
+.active .Detail{
   display: block;
 }

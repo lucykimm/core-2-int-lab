@@ -62,19 +62,20 @@ h1{
 
 
 
-
-.Detail{
+.detail{
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 00vw;
   height: 100vh;
   background: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 0px;
   justify-items: center;
   display: none;
+  font-family: abcmonumentgrotesk-regular;
 }
 
-.active .Detail{
+
+.detail.active{
   display: block;
 }

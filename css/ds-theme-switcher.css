@@ -72,7 +72,7 @@ button {
 
 
 html {
-  color: #222;
+  color: #3b2f19;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -118,7 +118,6 @@ textarea {
   resize: vertical;
 }
 
-
    body {
     color: #222;
     padding-top: 2rem;
@@ -128,8 +127,7 @@ textarea {
 
 
   :root {
-    --bg-color: #ffffff;
-    --main-border: 3px solid rgb(252, 255, 155);
+    --bg-color: #e2f7a8;
     --wf-gray: #434E59;
     --wf-light-gray: #E6ECF2;
     --wf-bright-yellow: #F2BC1B;
@@ -153,9 +151,8 @@ textarea {
   }
 
   [data-theme="dark"] {
-    --bg-color: #111;
-    --font-color: #e2f7a8;;
-    --main-border: 3px #e2f7a8;
+    --bg-color: #3b2f19;
+    --font-color: #e2f7a8;
   }
   
   @media (min-width: 30em) {

@@ -3,8 +3,8 @@
   }
 
 @font-face {
-  font-family: 'metricregular';
-    src: url('metricregular.woff2');
+  font-family: suisseintregular;
+    src: url(suisseintregular.woff);
 }
 
 body{ 
@@ -22,7 +22,7 @@ h1{
   margin-bottom: 30px;
   margin-left: 10px;
   line-height: 80px;
-  font-family: metricregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
@@ -34,7 +34,7 @@ div{
   line-height: 110%;
   margin-top: 50px; 
   background-color: #fff;
-  font-family: metricregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;}

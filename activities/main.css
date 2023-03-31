@@ -1,10 +1,10 @@
 @font-face {
-  font-family: suisseregular;
-    src: url(suisseregular.ttf);
+  font-family: suisseintregular;
+    src: url(suisseintregular.woff);
 }
 
 h1 {
-  font-family: suisseregular;
+  font-family: suisseintregular;
   margin-left: 10px;
   margin-top: 0px;
   margin-bottom: 10px;  
@@ -41,7 +41,7 @@ div {
 
 .container-fluid > div {
   background-color: rgba(255, 255, 255, 0.8);
-  font-family: suisseregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;

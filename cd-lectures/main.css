@@ -1,19 +1,17 @@
 @font-face {
-  font-family: suisseregular;
-    src: url(suisseregular.ttf);
-}
-
-@font-face {
-  font-family: abcmonumentgrotesk-medium;
-    src: url(abcmonumentgrotesk-medium.otf);
+  font-family: suisseintregular;
+    src: url(suisseintregular.woff);
 }
 
 
 body{
   background-color: #ffffff;
-  font-family: abcmonumentgrotesk-medium;
+  font-family: suisseintregular;
   color: #000000;
   font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  word-spacing: -0.08rem;
   line-height: 40px;
   margin-top: 30px;
   margin-bottom: 90px;
@@ -31,7 +29,7 @@ p{
 
 h1{
   text-align: left;
-  font-family: suisseregular;
+  font-family: suisseintregular;
   margin-left: -40px;
   margin-top: -40px;
   margin-bottom: 10px;  
@@ -75,7 +73,7 @@ h2{
   margin-top: -10px;
   margin-bottom: -30px;
   margin-left: 20px;
-  font-family: suisseregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
@@ -87,7 +85,7 @@ h3{
   margin-top: 0px;
   margin-bottom: 60px;
   margin-left: 20px;
-  font-family: suisseregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
@@ -96,7 +94,7 @@ h3{
 nav{
   text-align: left;
   margin-left: -40px;
-  font-family: suisseregular;
+  font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;

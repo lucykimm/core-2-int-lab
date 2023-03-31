@@ -1,64 +1,64 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-@media screen and (max-width: 400px){ 
+/* main homepage */
+@media screen and (max-width: 480px){ 
   }
 
 @font-face {
-  font-family: realmadrid2009;
-    src: url(realmadrid2009.ttf);
+  font-family: suisseregular;
+    src: url(suisseregular.ttf);
 }
-  
-body {
-  background-color: #ffffff;
-  padding: 40px;
+
+body{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
+
 
 h1{
   text-align: left;
-  color: #000000;
-  font-size: 60px;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  font-family: realmadrid2009;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  line-height: 80px;
+  font-family: suisseregular;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  word-spacing: -0.08rem;
 }
 
-section1{
-  text-align: right;
-  font-size: 40px;
-  line-height: 150%; 
+div{
+  text-align: left;
+  font-size: 80px;
+  line-height: 110%;
+  margin-top: 50px; 
   background-color: #fff;
-  font-family: realmadrid2009;
-}
+  font-family: suisseregular;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  word-spacing: -0.08rem;}
 
 .circle1 {
   float: left;
-  width: 550px;
-  height: 550px;
-  margin: 30px;
+  width: 480px;
+  height: 480px;
+  margin-left: 10px;
+  margin-right: 50px;
   shape-outside: circle();
   clip-path: circle();
-  background: rgb(235, 255, 154);
+  background: rgb(0, 0, 0);
 }
 
 .circle2 {
   float: right;
-  width: 350px;
-  height: 350px;
-  margin: 30px;
+  width: 190px;
+  height: 190px;
+  margin-top: 50px;
+  margin-right: 10px;
   shape-outside: circle();
   clip-path: circle();
-  background: rgb(235, 255, 154);
+  background: rgb(0, 0, 0);
 }
 
 

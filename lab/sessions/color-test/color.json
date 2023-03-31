@@ -1,0 +1,9 @@
+{
+	"colors": [
+	  { "Name": "color 1", "Hexcode": "#0c3d33", "Key": 1 },
+	  { "Name": "color 2", "Hexcode": "#05272b", "Key": 2 },
+	  { "Name": "color 3", "Hexcode": "#4c1a15", "Key": 3 },
+	  { "Name": "color 4", "Hexcode": "#010202", "Key": 4 },
+	  { "Name": "color 5", "Hexcode": "#759178", "Key": 5 }
+		]
+  }

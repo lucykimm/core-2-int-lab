@@ -27,37 +27,18 @@ h1{
   font-family: abcmonumentgrotesk-regular;
 }
 
-
-.column {
-  -ms-flex: 30%;
-  flex: 32%;
-  max-width: 50%;
-}
-
-.column2 {
-  -ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
-}
-
-.column img {
-  margin-top: 80px;
-  vertical-align: middle;
+img{
   width: 100%;
 }
 
-.column2 img {
-  margin-top: 80px;
-  vertical-align: middle;
-  width: 80%;
-}
 
-.row {
-  display: -ms-flexbox;
+#container{
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 0px;
+}
+.lamp{
+  width: 50%;
 }
 
 

@@ -73,7 +73,7 @@ blockquote{
 }
 
 ul{
-    font-size: .85em;
+    font-size: 1em;
     letter-spacing: 0.015em;
     padding-left: 3rem;
 }
@@ -92,9 +92,8 @@ ul li:first-child{
 
 sup{
     font-feature-settings: "sups" on;
-    font-size: 1em;
-    vertical-align: baseline;
-    letter-spacing: -1px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
     margin-right: 3px;
 }
 .sm{
@@ -105,8 +104,7 @@ sup{
 }
 /*option+command+[ for curly quotes*/
 
-[lang=gr]{
-    font-family: 'Vollkorn', serif;
-    font-size: 1.15em;
-}
+
+
+
 

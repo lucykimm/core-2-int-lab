@@ -2,8 +2,6 @@
     font-family: circularmedium;
       src: url(fonts/circularmedium.otf);
   }
-  
-
 
 :root{
   --GRAD: 0;
@@ -24,67 +22,85 @@ body{
 
 section{
     background: white;
-    margin: auto;
-    width: 600px;
+    margin-left: 700px;
+    width: 750px;
     padding: var(--pad);
     box-sizing: border-box;
 }
 
 h1{
     font-family: 'circularmedium';
-    font-size: 3rem;
+    font-size: 4.5rem;
     line-height: 1.5;
     letter-spacing: 0.02rem;
     font-weight: 800;
+    margin-left: 20px;
   }
+
+div{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: -10px;
+    }
 
 h2{
   font-family: 'circularmedium';
-  font-size: 2rem;
-  line-height: 1.5;
+  font-size: 2.7rem;
+  line-height: 2;
   letter-spacing: 0.02rem;
   font-weight: 800;
 }
 
 h3{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family: 'circularmedium';
+    font-size: 1.5rem;   
+    line-height: 1.5;
+    padding-top: 40px;
 }
 
 p{
-    text-indent: 3rem;
+    font-family: 'Roboto', sans-serif;    
     line-height: 1.4;
     hyphens: auto;
     font-feature-settings: "onum" on;
+    
 }
-h1 + p, h2 + p{
-    text-indent: 0;
-}
+
 h2{
     margin-top: var(--pad);
 }
+
+span{
+    line-height: 1.5;
+}
+
+
 blockquote{
     font-family: 'Roboto', sans-serif;    
-    font-size: 30px;
+    font-size: 25px;
     margin-top: var(--pad);
+    margin-bottom: var(--pad);
     letter-spacing: -0.01em;
-    line-height: 1.1;
-    text-indent: -0.4em;
+    line-height: 1.5;
 }
 
 ul{
     font-size: 1em;
     letter-spacing: 0.015em;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 ul li{
     list-style-type: none;
-    text-indent: -10px;
+    text-indent: -5px;
     margin-bottom: 1em;
 }
 ul li:before{
-    content: "* ";
+    content: "○ ";
 }
 ul li:first-child{
     margin-top: 1em;
@@ -93,7 +109,7 @@ ul li:first-child{
 sup{
     font-feature-settings: "sups" on;
     font-size: 0.8em;
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
     margin-right: 3px;
 }
 .sm{
@@ -102,6 +118,10 @@ sup{
 .fraction{
     font-feature-settings: "frac" on;
 }
+
+
+
+
 /*option+command+[ for curly quotes*/
 
 

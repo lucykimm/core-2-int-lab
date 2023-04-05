@@ -8,11 +8,11 @@
 /* type */
 
 body {
-    font-family: Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 38px;
     line-height: 1.2;
-    background-color: #F6F6F2;
+    background-color: #ffffff;
 }
 
 /* structure */
@@ -33,7 +33,7 @@ section {
 /* typography */
 
 h1 {
-  font-size: 11vw;
+  font-size: 10vw;
   font-weight: normal;
   margin-top: 100px;
 }

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: prophet;
+    src: url(../prophetvar.woff);
+}
+
+body {
+  --spacing: 25px;
+  display: grid;
+  font-family: prophet;
+
+  vertical-align: baseline;
+  font-size: 30px;
+  line-height: 20px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  body { 
+      --spacing: 32px;
+  }
+}
+
+ul {
+  padding: var(--spacing);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  color:#0000FF;
+}
+
+.row{
+  color:#0000FF;
+  padding: var(--spacing);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.row:hover{
+  color: rgb(179, 206, 237);
+}
+
+
+#options li{
+  display: inline-block;
+}
+
+.attendance{
+  padding: var( --spacing);
+  display: grid;
+  vertical-align: baseline;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  font-family: prophet;
+  vertical-align: baseline;
+  display: grid;
+  left: 0;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color:#ffffff;
+  position: fixed;
+  height: 200px;
+  background: #0000FF;
+  bottom: 0px;
+  height: 30%;
+  width: 100%;
+}
+
+
+
+
+.active .container{
+  display: grid;
+}
+
+

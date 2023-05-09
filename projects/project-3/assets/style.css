@@ -1,38 +1,47 @@
 @font-face {
     font-family: prophet;
-      src: url(../prophet.woff);
+      src: url(../prophetvar.woff);
 }
 
-body {
-    --spacing: 24px;
+ul {
     font-family: prophet;
-    padding: var( --spacing);
+    font-size: 30px;
+    padding-left: 20px;
     vertical-align: baseline;
+    color:#0000FF;
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 800px) {
     body { 
         --spacing: 32px;
     }
 }
 
+h2 {
+    font-family: prophet;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 60px;
+    vertical-align: baseline;
+    text-align: right;
+    color:#0000FF;
+}
+
+
 h1{
     font-family: prophet;
-    font-size: 230px;
-    line-height: 220px;
+    font-size: 250px;
+    line-height: 210px;
     vertical-align: baseline;
-    padding-top: 100px;
-    color:rgb(6, 92, 143);
+    padding-top: 30px;
+    color:#0000FF;
+    transition: all 600ms ease-in-out;
 }
-#records{
-    margin-top: var(--spacing);
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: var(--spacing);
+
+h1:hover{
+    color: rgb(179, 206, 237);
 }
-.record{
-    font-size: calc(18px * var(--ratio) + 8px);
-}
+
 
 #options li{
     display: inline-block;
@@ -40,3 +49,11 @@ h1{
 }
 
 
+a.one:link {
+    text-decoration: none;
+    color:#0000FF;
+  }
+ 
+  a.one:hover {
+    color: rgb(179, 206, 237);
+  }

@@ -7,7 +7,6 @@ body {
     --spacing: 25px;
     display: grid;
     font-family: prophet;
-
     vertical-align: baseline;
     font-size: 30px;
     line-height: 20px;
@@ -30,16 +29,17 @@ ul {
     color:#0000FF;
 }
 
-.row{
+#borough-location{
     color:#0000FF;
     padding: var(--spacing);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
+    align-items: flex-start;
 }
 
-.row:hover{
+.location-sum:hover{
     color: rgb(179, 206, 237);
 }
 
@@ -48,14 +48,19 @@ ul {
     display: inline-block;
 }
 
-.attendance{
+.borough-location{
     padding: var( --spacing);
     display: grid;
     vertical-align: baseline;
     padding-top: 20px;
     justify-content: center;
     align-items: center;
-  }
+}
+
+#borough-location > * {
+border-right: 1px solid #0000FF;
+}
+
 
 #container{
     font-family: prophet;

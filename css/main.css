@@ -1,5 +1,5 @@
 /* main homepage */
-@media screen and (max-width: 480px){ 
+@media screen and (max-width: 800px){ 
   }
 
 @font-face {
@@ -17,7 +17,7 @@ body{
 
 h1{
   text-align: left;
-  font-size: 80px;
+  font-size: 60px;
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: 10px;
@@ -30,9 +30,8 @@ h1{
 
 div{
   text-align: left;
-  font-size: 80px;
-  line-height: 110%;
-  margin-top: 50px; 
+  font-size: 60px;
+  line-height: 80px;
   background-color: #fff;
   font-family: suisseintregular;
   font-weight: 400;

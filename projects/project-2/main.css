@@ -8,6 +8,14 @@
 }
 
 
+h1{
+  text-align: left;
+  position:fixed;
+  padding-left: 20px;
+  color: #000000;
+  font-size: 60px;
+  font-family: abcmonumentgrotesk-regular;
+}
 
 div{
   font-family: abcmonumentgrotesk-regular;
@@ -18,14 +26,7 @@ div{
 }
 
 
-h1{
-  text-align: left;
-  padding-bottom: -20px;
-  padding-left: 20px;
-  color: #000000;
-  font-size: 60px;
-  font-family: abcmonumentgrotesk-regular;
-}
+
 
 img{
   width: 100%;
@@ -33,30 +34,61 @@ img{
 
 
 #container{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  gap: 0 0;
   padding: 0 0px;
 }
+
 .lamp{
-  width: 50%;
+  width: 90%;
+  height:auto;
+}
+
+.lamp img{
+  transition: width .2s ease;
+  width: 90%;
+}
+
+.lamp img:hover{
+  width: 94%;
 }
 
 
 
-.detail{
-  position: fixed;
+.details{
   top: 0;
   left: 0;
-  width: 00vw;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100vw;
   height: 100vh;
-  background: rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
   font-size: 0px;
-  justify-items: center;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   font-family: abcmonumentgrotesk-regular;
+  z-index: 2;
+}
+
+.bkgColor{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 25%;
 }
 
 
-.detail.active{
-  display: block;
+.details.inactive{
+  display: none;
 }

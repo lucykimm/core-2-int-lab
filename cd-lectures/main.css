@@ -1,3 +1,6 @@
+@media screen and (max-width: 800px){ 
+}
+
 @font-face {
   font-family: suisseintregular;
     src: url(suisseintregular.woff);
@@ -13,66 +16,55 @@ body{
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
   line-height: 40px;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  padding: 40px;
 }
 
 p{
   text-align: left;
   padding-right: 40px;
   padding-left: 20px;
-  padding-top: 30px;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 30px;
+  margin: 0;
 }
 
 h1{
   text-align: left;
   font-family: suisseintregular;
-  margin-left: -40px;
-  margin-top: -40px;
-  margin-bottom: 10px;  
   font-size: 60px;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
+  margin: 10px 0 20px 0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  min-height: 20vh;
-}
-
 div {
-  width: 1450px;
-  height: 260px;
-  border: 1px solid black;
-  border-left: none;
-  border-right: none;
+  width: 99vw;
+  height: 280px;
+  border-top: 1px solid black;
+  outline-offset: -1px;
   overflow: auto;
-  line-height: 100px;
 }
 
 .container-fluid {
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  line-height: 100px;
+  grid-template-rows: auto auto auto auto auto;
 }
 
-
+.response{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin: 2px;
+  justify-items: start;
+  align-items: start;
+}
 
 h2{
-  font-size: 50px;
   text-align: left;
-  margin-top: -10px;
-  margin-bottom: -30px;
-  margin-left: 20px;
+  margin-top: -1px;
   font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
@@ -80,11 +72,10 @@ h2{
 }
 
 h3{
-  font-size: 50px;
+  font-size: 20px;
   text-align: left;
-  margin-top: 0px;
-  margin-bottom: 60px;
-  margin-left: 20px;
+  margin: 0;
+  line-height: 30px;
   font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
@@ -93,11 +84,15 @@ h3{
 
 nav{
   text-align: left;
-  margin-left: -40px;
   font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
+}
+
+.one{
+  padding: 8px;
+  
 }
 
 a.one:link {

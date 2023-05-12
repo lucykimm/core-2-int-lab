@@ -12,15 +12,20 @@ function renderItems() {
     .catch(error => console.error(error));
 }
 
+let colorArray = ['Orange', 'Gray', 'Teal', 'Sienna', 'Peru']
+
 function displayData(data){
   data.forEach(function(item, index){
-    console.log(item, index);
+    console.log(item.Colors, index);
     let newItem = document.createElement("div");
     newItem.classList.add("lamp");
     newItem.innerHTML = `
       <img src="${item.Image}">
       <div class="Name">${item.Name}</div>
-      <div class="details">
+
+      <div class="details inactive">
+        
+        <div class="Name">${item.Name}</div>
         <div class="Price">
           <span class="label">Price</span> <br> ${item.Price}
         </div>
@@ -39,6 +44,7 @@ function displayData(data){
         <div class="Materials">
           <span class="label">Materials</span> <br> ${item.Materials}
         </div>
+        <div class="bkgColor"></div>
       </div>
     `;
     let container = document.querySelector("#container");
@@ -46,11 +52,22 @@ function displayData(data){
   });
 
   let lamps = document.querySelectorAll(".lamp");
-  lamps.forEach( lamp=>{
-    lamp.addEventListener('click', function(){
-        lamp.classList.toggle("active");
-      });   
-  });
+  let details = document.querySelectorAll(".details");
+  let bkgColorDivs = document.querySelectorAll(".bkgColor");
+
+  for(let i=0;i<lamps.length; i++){
+    lamps[i].addEventListener('click', function(){
+      details[i].classList.toggle("inactive");
+      
+      for(let j=0; j<colorArray.length; j++){
+        if(data[i].Colors.includes(colorArray[j])){
+          bkgColorDivs[i].style.backgroundColor = colorArray[j].toLowerCase();
+          console.log(colorArray[j].toLowerCase());
+        }
+      }
+
+    });   
+  }
 }
 
 

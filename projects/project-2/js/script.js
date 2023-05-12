@@ -12,7 +12,7 @@ function renderItems() {
     .catch(error => console.error(error));
 }
 
-let colorArray = ['Orange', 'Gray', 'Teal', 'Sienna', 'Peru']
+let colorArray = ['Antiquewhite', 'White', 'Orange', 'Gray', 'Teal', 'Sienna', 'Aquamarine', 'Firebrick', 'Burlywood','Goldenrod', 'Black', 'Beige', 'Peru']
 
 function displayData(data){
   data.forEach(function(item, index){

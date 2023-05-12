@@ -31,7 +31,7 @@ h1{
 div{
   text-align: left;
   font-size: 60px;
-  line-height: 80px;
+  line-height: 90px;
   background-color: #fff;
   font-family: suisseintregular;
   font-weight: 400;
@@ -53,7 +53,7 @@ div{
   float: right;
   width: 190px;
   height: 190px;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-right: 10px;
   shape-outside: circle();
   clip-path: circle();

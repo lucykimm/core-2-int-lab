@@ -1,62 +1,97 @@
+@media screen and (max-width: 800px){ 
+}
+
 @font-face {
   font-family: suisseintregular;
     src: url(suisseintregular.woff);
 }
 
-h1 {
-  text-align: left;
-  font-size: 80px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  line-height: 80px;
+body{
+  background-color: #ffffff;
   font-family: suisseintregular;
+  color: #000000;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
+  line-height: 40px;
 }
 
+p{
+  text-align: left;
+  padding-right: 40px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
 
+h1{
+  text-align: left;
+  font-family: suisseintregular;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  word-spacing: -0.08rem;
+  margin: 10px 0 20px 0;
+}
 
 * {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  min-height: 40vh;
-}
-
 
 div {
-  width: 1500px;
-  height: 300px;
-  border: 1px solid black;
-  border-left: none;
-  border-right: none;
+  width: 99vw;
+  height: 280px;
+  border-top: 1px solid black;
+  outline-offset: -1px;
   overflow: auto;
-  line-height: 100px;
 }
 
 .container-fluid {
   display: grid;
   grid-template-rows: auto auto auto;
-  line-height: 100px;
+}
+
+.project{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin: 2px;
+  justify-items: start;
+  align-items: start;
+}
+
+
+h2{
   text-align: left;
-  font-size: 80px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left: 10px;
+  margin-top: -1px;
   font-family: suisseintregular;
   font-weight: 400;
   letter-spacing: -.01rem;
   word-spacing: -0.08rem;
 }
 
+h3{
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  line-height: 30px;
+  font-family: suisseintregular;
+  font-weight: 400;
+  letter-spacing: -.01rem;
+  word-spacing: -0.08rem;
+}
+
+.one{
+  padding: 8px;
+  
+}
+
+
 a.one:link {
   text-decoration: none;
-  color:#022e14;
+  color:#000000;
 }
 
 a.one:visited {
@@ -67,4 +102,6 @@ a.one:visited {
 a.one:hover {
   color:#e2f7a8;
 }
+
+
 

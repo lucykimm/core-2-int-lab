@@ -1,3 +1,6 @@
+@media screen and (max-width: 800px){ 
+}
+
 @font-face {
   font-family: 'ABC';
   src: url(ABCCameraPlain-Medium-Trial.otf)
@@ -38,8 +41,8 @@ div {
   background-color: rgba(255, 255, 255, 0.8);
   font-family: 'ABC';
   text-align: center;
-  padding: 20px 0;
-  font-size: 180px;
+  padding: 10px 0;
+  font-size: 100px;
 }
 
 h2 {
